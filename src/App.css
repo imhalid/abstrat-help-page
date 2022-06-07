@@ -1,5 +1,78 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #101010;
-  padding: 20px;
   text-align: center;
+  height: 88px;
+  padding: 0px 60px 0px 60px;
+}
+
+/* LOGO */
+
+.abstract-logo {
+  width: 126px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.abstract-logo:hover {
+  opacity: 0.6;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* TITLE */
+
+.header-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 2px 0 4px 0.8rem;
+  border-left: #fff solid 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-title:hover {
+  text-decoration: underline;
+}
+
+/* BUTTONS */
+
+.btn {
+  font-size: 24px;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 22px;
+  font-weight: 400;
+}
+.request-button {
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid #fff;
+  padding: 6px 22px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-button {
+  color: #ffffff;
+  background-color: #4c5fd5;
+  border: 1px solid #4c5fd5;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
 }

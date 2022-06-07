@@ -1,0 +1,32 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 115px;
+  width: 100%;
+  height: 100%;
+  background-color: #dadbf1;
+}
+
+.container-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 720px;
+  width: 90%;
+}
+
+.search-title {
+  font-size: 80px;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+.search-box {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 720px;
+}
