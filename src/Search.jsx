@@ -8,7 +8,6 @@ const Search = () => {
         <h1 className="search-title">How can we help?</h1>
         <form>
           <input className="search-box" type="text" placeholder="Search" />
-          <button type="submit">Search</button>
         </form>
       </div>
     </section>
